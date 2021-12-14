@@ -9,8 +9,9 @@
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
     "devtools": "react-devtools",
     "test": "jest",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "react-scripts build",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d start"
   },
   "dependencies": {
     "react": "16.0.0",
